@@ -1,0 +1,70 @@
+.reviewProduct{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid black;
+    border-radius: 10px;
+}
+
+.reviewProduct_image {
+    object-fit: contain;
+    width: 300px;
+    height: 180px;
+    padding-top: 50px;
+    padding-left: 400px;
+}
+
+.reviewProduct_info{
+    padding-left: 470px;
+}
+
+.reviewProduct_price{
+    padding-left: 50px;
+}
+
+
+.addButtonFromReview{
+    background: lightgreen;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: black;
+    color: #111;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+
+.getReviews{
+    display: visible;
+    padding-left: 30px; 
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.responses{
+    background-color: grey;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 50px;
+}
+
+.writeReview_Section{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.review_box{
+    padding-left: 30px;
+}
+
+.submitReview_Button{
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+
+.hidden{
+    display: none;
+}
+

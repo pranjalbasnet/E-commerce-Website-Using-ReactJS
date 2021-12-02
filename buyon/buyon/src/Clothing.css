@@ -1,0 +1,32 @@
+.clothing {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    background-image: url('https://image.shutterstock.com/z/stock-vector-editable-vector-seamless-pattern-women-s-clothing-background-background-for-websites-banners-1014479191.jpg');
+  }
+  .clothing_image {
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+
+  .clothing_row {  
+    display: flex; 
+    z-index: 1; 
+    margin-left: 5px;  
+    margin-right: 5px;
+  }
+
+  .box {
+    text-align: left;
+    border: black ridge 1px;
+    border-radius: 10px;
+    margin: 3px;
+    width: 20rem;
+    padding-left: 10px;
+  }
+  
+  
